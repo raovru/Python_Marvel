@@ -1,0 +1,30 @@
+Neural Network basics:
+    They are the basis of deep learning, a subset of ML where algorithms are inspired by the neural connections in the brain, hence the name. Just like any ML algorithm, they take in data as input, train themselves to recognize the patterns and predict the output for new set of data (Like train-test-split) 
+The neural network has a system of interconnected layers via which information is processed and passed.
+    Just like brain, the basic unit of computation here is neuron as well.
+    A bunch of neurons make up a layer.
+    The different bunch of layers are:
+        Input layer - just relays the information in input to the next layer.
+        Hidden layer - Here the processing happens and the output of this is transferred to the next layer.
+        Output layer: An activation function is used to map to the desired output using different softwares for classifying this.
+        Connections and weights: The network consists of connections, each connection transferring the output of a neuron i to the input of a neuron j.
+        Learning rule: The learning rule is a rule or an algorithm which modifies the parameters of the neural network, in order for a given input to the network to produce a favored output.
+        
+Types of Neural Networks:
+
+1. Feedforward Neural Networks:
+    In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network.
+    
+2. Single-layer Perceptron:
+    This is the simplest feedforward neural Network and does not contain any hidden layer, Which means it only consists of a single layer of output nodes.
+    
+3. Multi-layer perceptron (MLP):
+This class of networks consists of multiple layers of computational units, usually interconnected in a feed-forward way. Each neuron in one layer has directed connections to the neurons of the subsequent layer
+
+4. Convolutional Neural Network (CNN):
+
+    
+    
+Data Propagation:
+     Let's take an example of a neural network that can differentiate between the primary colours. Neural networks have a core made of neurons. There's layers to these neurons - the first is the input layer and the last is the output layer that predicts the colour, in this case. In between, we have the computational layers where the actual processing happens.
+     For example, we take the colours that make up the primary palette as input - these are fed to the input layer. These in turn, are interconnected to the remaining layers via channels. Each of these channels is assigned a numerical 'weight'. The inputs multipkied with the corresponging weights and the sum is sent as input to the neurons in the computational layer. Each of these neurons is associated with a value called 'bias'.  
